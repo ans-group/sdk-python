@@ -49,8 +49,10 @@ jobs:
           pytest --pylint -m pylint ./UKFastAPI
 
       - name: Run coverage
+        env: # Or as an environment variable
+          UKF_API_KEY: ${{ secrets.UKF_API_KEY }}
         run: |
-          pip install pytest-cov
+          pip install pytest pytest-cov
           rm setup.cfg && mv setup_ci.cfg setup.cfg
           pytest -vs
 
