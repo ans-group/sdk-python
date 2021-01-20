@@ -29,10 +29,21 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
       # Runs a set of commands using the runners shell
       - name: Package Wheel
         run: |
           echo v0.0.0 > VERSION
           pip install wheel
           python setup.py bdist_wheel
-          pwd
+
+      - name: Run Tests
+        run: |
+          pip install pytest pytest-pylint
+          rm setup.cfg
+          pip install -e .
+          pytest --pylint -m pylint ./UKFastAPI
