@@ -1,0 +1,15 @@
+site_name: UKFast sdk-python
+nav:
+- Home: 
+  - Contents: index.md
+  - API Examples:
+    - SafeDNS: 
+      - SafeDns: safedns/safedns.md
+      - Zones: safedns/safedns_zones.md
+      - Templates: safedns/safedns_templates.md
+      - Records: safedns/safedns_records.md
+      - Notes: safedns/safedns_notes.md
+      - Settings: safedns/safedns_settings.md
+theme: readthedocs
+plugins:
+  - mermaid2

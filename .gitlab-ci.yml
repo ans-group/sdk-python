@@ -1,0 +1,84 @@
+stages:
+  - Build
+  - Linting
+  - Testing
+  - Documentation
+
+build:
+  stage: Build
+  script: 
+    - echo v0.0.0 > VERSION
+    - docker build -t $CI_COMMIT_SHA -f .docker/build.dockerfile . --no-cache
+    - docker run -i $CI_COMMIT_SHA
+  tags:
+    - executor:shell
+    - location:rndcloud
+    - os:linux
+    - package:docker
+  only:
+    - tags
+
+linting:
+  stage: Linting
+  script:
+    - echo v0.0.0 > VERSION
+    - docker build -t $CI_COMMIT_SHA -f .docker/pylint.dockerfile . --no-cache
+    - docker run -i $CI_COMMIT_SHA
+  tags:
+    - executor:shell
+    - location:rndcloud
+    - os:linux
+    - package:docker
+  only:
+    - tags
+
+testing:
+  stage: Testing
+  script:
+    - echo v0.0.0 > VERSION
+    - mkdir reports
+    - docker build -t $CI_COMMIT_SHA --build-arg PYTHON_VERSION=$PYTHON_VERSION -f .docker/pytest.dockerfile . --no-cache
+    # - docker run -i --mount type=bind,source="$(pwd)"/reports,target=/sdk-python/reports -e UKF_API_KEY=$MYUKFAST_TOKEN $CI_COMMIT_SHA
+  tags:
+    - executor:shell
+    - location:rndcloud
+    - os:linux
+    - package:docker
+  # Since we're using the same API key for all tests, we can't have multiple tests running in parallel.
+  # To still use the matrix values, we can just stick them in a resource_group to ensure they run one at a time, 
+  resource_group: production
+  parallel:
+    matrix:
+      - PYTHON_VERSION: 
+        # - 'latest'
+        # - '3.10.0a2'
+        # - '3.9'
+        - '3.8'
+        # - '3.7'
+        # # There's a bug in Python 3.6.0 that prevents pytest from working properly.
+        # # https://github.com/nedbat/coveragepy/issues/703
+        # - '3.6.1'
+        # - '3.5'
+        # - '3.4'
+        # - '3.3'
+  coverage: '/TOTAL.*\s+(\d+%)$/'
+  artifacts:
+    when: always
+    reports:
+      junit: ./reports/report.xml
+  only:
+    - tags
+
+documentation:
+  stage: Documentation
+  script:
+    - echo v0.0.0 > VERSION
+    - docker build -t $CI_COMMIT_SHA -f .docker/documentation.dockerfile . --no-cache
+    # - docker run -i $CI_COMMIT_SHA
+  tags:
+    - executor:shell
+    - location:rndcloud
+    - os:linux
+    - package:docker
+  only:
+    - tags

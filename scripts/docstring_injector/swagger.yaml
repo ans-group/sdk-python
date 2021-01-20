@@ -1,0 +1,1234 @@
+---
+openapi: 3.0.0
+info:
+  title: SafeDNS API
+  version: 1.0.0
+  license:
+    name: MIT
+
+servers:
+  - url: https://api.ukfast.io
+
+security:
+  - api_key:
+      - api_key
+
+tags:
+  - name: Zone
+  - name: Records
+  - name: Notes
+  - name: Templates
+  - name: Template Records
+
+paths:
+  "/safedns/v1/zones":
+    get:
+      summary: GET /safedns/v1/zones
+      description: Gets a paginated list of zones for the authenticated reseller
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: Page number to jump to
+          schema:
+            type: integer
+        - name: per_page
+          in: query
+          required: false
+          description: Number of items to display per page
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      "$ref": "#/components/schemas/GetZone"
+                  meta:
+                    type: object
+                    required:
+                      - pagination
+                    properties:
+                      pagination:
+                        type: object
+                        properties:
+                          total:
+                            type: integer
+                            example: 30
+                          count:
+                            type: integer
+                            example: 10
+                          current_page:
+                            type: integer
+                            example: 2
+                          per_page:
+                            type: integer
+                            example: 10
+                          total_pages:
+                            type: integer
+                            example: 3
+                          links:
+                            type: object
+                            properties:
+                              next:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones?page=3
+                              previous:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones?page=1
+                              first:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones?page=1
+                              last:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones?page=3
+      tags:
+        - Zone
+    post:
+      summary: POST /safedns/v1/zones
+      description: Creates a zone
+      parameters: []
+      responses:
+        '201':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: example.com
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/zones/example.com
+        '402':
+          description: Payment Required
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    items:
+                      properties:
+                        title:
+                          type: string
+                          example: Payment Required
+                        detail:
+                          type: string
+                          example: Free users are limited to 5 zones
+                        status:
+                          type: integer
+                          example: 402
+        '422':
+          description: Unprocessable Entity
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    items:
+                      properties:
+                        title:
+                          type: string
+                          example: Validation Error
+                        detail:
+                          type: string
+                          example: This name already exists
+                        status:
+                          type: integer
+                          example: 422
+                        source:
+                          type: string
+                          example: name
+      tags:
+        - Zone
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                name:
+                  type: string
+                  example: google.com
+                description:
+                  type: string
+                  example: test server
+  "/safedns/v1/zones/{zone_name}":
+    get:
+      summary: GET /safedns/v1/zones/{zone_name}
+      description: Gets a specific zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/GetZones"
+                  meta:
+                    type: object
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    items:
+                      properties:
+                        title:
+                          type: string
+                          example: Zone Not Found
+                        detail:
+                          type: string
+                          example: Zone name not found
+                        status:
+                          type: integer
+                          example: 404
+                        source:
+                          type: string
+                          example: zone_uri
+      tags:
+        - Zone
+    patch:
+      summary: PATCH /safedns/v1/zones/{zone_name}
+      description: Updates a zone description
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: yourdomainname.co.uk
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/zones/yourdomainname.co.uk
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  errors:
+                    type: array
+                    items:
+                      properties:
+                        title:
+                          type: string
+                          example: Not Found
+                        detail:
+                          type: string
+                          example: No Zone with that ID was found
+                        status:
+                          type: integer
+                          example: 404
+      tags:
+        - Zone
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/PatchZone"
+    delete:
+      summary: DELETE /safedns/v1/zones/{zone_name}
+      description: Removes a zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Operation completed successfully. No response body
+      tags:
+        - Zone
+  "/safedns/v1/templates":
+    get:
+      summary: GET /safedns/v1/templates
+      description: Returns a paginated list of available templates for the authenticated
+        reseller
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: Page number to jump to
+          schema:
+            type: integer
+        - name: per_page
+          in: query
+          required: false
+          description: Number of items to display per page
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      "$ref": "#/components/schemas/Template"
+                  meta:
+                    type: object
+                    required:
+                      - pagination
+                    properties:
+                      pagination:
+                        type: object
+                        properties:
+                          total:
+                            type: integer
+                            example: 20
+                          count:
+                            type: integer
+                            example: 10
+                          per_page:
+                            type: integer
+                            example: 10
+                          total_pages:
+                            type: integer
+                            example: 2
+                          links:
+                            type: object
+                            properties:
+                              next:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates?page=2
+                              previous:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates?page=1
+                              first:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates?page=1
+                              last:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates?page=2
+      tags:
+        - Templates
+    post:
+      summary: POST /safedns/v1/templates
+      description: Creates a template
+      parameters: []
+      responses:
+        '201':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/templates/0
+      tags:
+        - Templates
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/Template"
+  "/safedns/v1/templates/{id}":
+    get:
+      summary: GET /safedns/v1/templates/{id}
+      description: Gets a specific template by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Template"
+                  meta:
+                    type: object
+      tags:
+        - Templates
+    patch:
+      summary: PATCH /safedns/v1/templates/{id}
+      description: Updates a template
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/templates/0
+      tags:
+        - Templates
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/Template"
+    delete:
+      summary: DELETE /safedns/v1/templates/{id}
+      description: Removes a template, and all the template records associated with
+        it
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Operation completed successfully. No response body
+      tags:
+        - Templates
+  "/safedns/v1/templates/{id}/records":
+    get:
+      summary: GET /safedns/v1/templates/{id}/records
+      description: Gets a paginated list of records for the template
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: Page number to jump to
+          schema:
+            type: integer
+        - name: per_page
+          in: query
+          required: false
+          description: Number of items to display per page
+          schema:
+            type: integer
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/TemplateRecord"
+                  meta:
+                    type: object
+                    required:
+                      - pagination
+                    properties:
+                      pagination:
+                        type: object
+                        properties:
+                          total:
+                            type: integer
+                            example: 20
+                          count:
+                            type: integer
+                            example: 10
+                          per_page:
+                            type: integer
+                            example: 10
+                          total_pages:
+                            type: integer
+                            example: 2
+                          links:
+                            type: object
+                            properties:
+                              next:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates/1/records?page=2
+                              previous:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates/1/records?page=1
+                              first:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates/1/records?page=1
+                              last:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/templates/1/records?page=2
+      tags:
+        - Template Records
+    post:
+      summary: POST /safedns/v1/templates/{id}/records
+      description: |-
+        Adds a record to a template.
+
+        When creating a zone with this template, '[domain]' will be substituted for the zone's domain name
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '201':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/templates/0/records/0
+      tags:
+        - Template Records
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/TemplateRecord"
+  "/safedns/v1/templates/{id}/records/{record_id}":
+    get:
+      summary: GET /safedns/v1/templates/{id}/records/{record_id}
+      description: Gets a specific record for a template
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/TemplateRecord"
+                  meta:
+                    type: object
+      tags:
+        - Template Records
+    patch:
+      summary: PATCH /safedns/v1/templates/{id}/records/{record_id}
+      description: Updates a template record
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/templates/0/records/0
+      tags:
+        - Template Records
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/TemplateRecord"
+    delete:
+      summary: DELETE /safedns/v1/templates/{id}/records/{record_id}
+      description: Deletes a template record
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Operation completed successfully. No response body
+      tags:
+        - Template Records
+
+  "/safedns/v1/zones/{zone_name}/records":
+    post:
+      summary: POST /safedns/v1/zones/{zone_name}/records
+      description: Creates a record on the specified zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records/0
+      tags:
+        - Records
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/Record"
+            examples:
+              a_record:
+                summary: Example POST request to create an A record within a given zone
+                value:
+                  name: ukfast.co.uk
+                  type: A
+                  content: 203.0.113.1
+              a_record_custom_ttl:
+                summary: Example POST request to create an A record within a given zone with a custom TTL
+                value:
+                  name: ukfast.co.uk
+                  type: A
+                  content: 203.0.113.1
+                  ttl: 300
+    get:
+      summary: GET /safedns/v1/zones/{zone_name}/records
+      description: Gets a paginated list of records for a zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: page
+          in: query
+          required: false
+          description: Page number to jump to
+          schema:
+            type: integer
+        - name: per_page
+          in: query
+          required: false
+          description: Number of items to display per page
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Record"
+                  meta:
+                    type: object
+                    required:
+                      - pagination
+                    properties:
+                      pagination:
+                        type: object
+                        properties:
+                          total:
+                            type: integer
+                            example: 20
+                          count:
+                            type: integer
+                            example: 10
+                          per_page:
+                            type: integer
+                            example: 10
+                          total_pages:
+                            type: integer
+                            example: 2
+                          links:
+                            type: object
+                            properties:
+                              next:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records?page=2
+                              previous:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records?page=1
+                              first:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records?page=1
+                              last:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records?page=2
+
+
+      tags:
+        - Records
+  "/safedns/v1/zones/{zone_name}/records/{record_id}":
+    get:
+      summary: GET /safedns/v1/zones/{zone_name}/records/{record_id}
+      description: Gets a specific record
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Record"
+                  meta:
+                    type: object
+      tags:
+        - Records
+    patch:
+      summary: PATCH /safedns/v1/zones/{zone_name}/records/{record_id}
+      description: Updates a record
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/records/0
+      tags:
+        - Records
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/Record"
+    delete:
+      summary: DELETE /safedns/v1/zones/{zone_name}/records/{record_id}
+      description: Removes a record from a zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: record_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Operation completed successfully. No response body
+      tags:
+        - Records
+  "/safedns/v1/zones/{zone_name}/notes":
+    get:
+      summary: GET /safedns/v1/zones/{zone_name}/notes
+      description: Gets a list of notes for a zone
+      parameters:
+        - name: page
+          in: query
+          required: false
+          description: Page number to jump to
+          schema:
+            type: integer
+        - name: per_page
+          in: query
+          required: false
+          description: Number of items to display per page
+          schema:
+            type: integer
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      "$ref": "#/components/schemas/Note"
+                  meta:
+                    type: object
+                    required:
+                      - pagination
+                    properties:
+                      pagination:
+                        type: object
+                        properties:
+                          total:
+                            type: integer
+                            example: 20
+                          count:
+                            type: integer
+                            example: 10
+                          per_page:
+                            type: integer
+                            example: 10
+                          total_pages:
+                            type: integer
+                            example: 2
+                          links:
+                            type: object
+                            properties:
+                              next:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/notes?page=2
+                              previous:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/notes?page=1
+                              first:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/notes?page=1
+                              last:
+                                type: string
+                                example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/notes?page=2
+      tags:
+        - Notes
+    post:
+      summary: POST /safedns/v1/zones/{zone_name}/notes
+      description: Adds a note to a zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                  meta:
+                    type: object
+                    properties:
+                      location:
+                        type: string
+                        example: https://api.ukfast.io/safedns/v1/zones/ukfast.co.uk/notes/0
+      tags:
+        - Notes
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              "$ref": "#/components/schemas/Note"
+  "/safedns/v1/zones/{zone_name}/notes/{note_id}":
+    get:
+      summary: GET /safedns/v1/zones/{zone_name}/notes/{note_id}
+      description: Gets a single note for a zone
+      parameters:
+        - name: zone_name
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: note_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    "$ref": "#/components/schemas/Note"
+                  meta:
+                    type: object
+      tags:
+        - Notes
+
+  /safedns/v1/settings:
+    get:
+      summary: GET /safedns/v1/settings
+      description: Retrieves Default Settings
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    "$ref": "#/components/schemas/Settings"
+                  meta:
+                    type: object
+      tags:
+        - Settings
+
+components:
+  schemas:
+    GetZones:
+      properties:
+        name:
+          type: string
+          example: google.com
+        description:
+          type: string
+          example: test server
+      description: A SafeDNS zone representing a domain
+    GetZone:
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          example: google.com
+        description:
+          type: string
+          example: test server
+      description: A SafeDNS zone representing a domain
+    PatchZone:
+      required:
+        - description
+      properties:
+        description:
+          type: string
+          example: test server
+      description: A SafeDNS zone representing a domain
+
+    Record:
+      required:
+        - name
+        - type
+        - content
+      properties:
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        name:
+          type: string
+          example: ukfast.co.uk
+        type:
+          type: string
+          enum: ['A', 'AAAA', 'CAA', 'CNAME', 'MX', 'SPF', 'SRV', 'TXT', 'NS', 'SOA']
+          example: MX
+          description: "The following record types are only available to certain users: NS & SOA"
+        content:
+          type: string
+          example: 203.0.113.1
+          description: content follows a specific format based on record type,
+            eg. A - IPv4 address; AAAA - IPv6 address; CAA - only use flag, tag and value;
+            SOA - 7 parts; SRV - valid weight, port and target; TXT - enclosed in double quotes
+        updated_at:
+          type: string
+          format: date-time
+          example: '2018-09-25T14:14:32+0000'
+          readOnly: true
+        ttl:
+          type: integer
+          default: 86400
+          example: 86400
+        priority:
+          type: integer
+          minimum: 0
+          maximum: 65535
+          example: 10
+          description: required for MX (min/max apply) and SRV records, do not include for other record types
+      description: A DNS record, e.g. an A record
+
+    Note:
+      required:
+        - id
+        - notes
+      properties:
+        id:
+          type: integer
+          example: 1765
+          readOnly: true
+        contact_id:
+          type: integer
+          example: 1
+        notes:
+          type: string
+          example: Added an A record
+        created_at:
+          type: string
+          format: date-time
+          example: "2019-09-23T13:11:10+01:00"
+          readOnly: true
+        ip:
+          type: string
+          example: "203.0.113.1"
+          readOnly: true
+      description: Represents a transaction or change that has happened on a zone
+
+    Template:
+      required:
+        - name
+        - default
+      properties:
+        name:
+          type: string
+          example: Mail Server
+        default:
+          type: boolean
+          example: false
+      description: A template used for applying a set of records to a domain. An example
+        use for a template could be configuring SPF records for a mail server
+    TemplateRecord:
+      required:
+        - name
+        - type
+        - content
+        - ttl
+        - priority
+      properties:
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        name:
+          type: string
+          example: test.[domain]
+          description: When using a template with this record to create a zone, '[domain]' will be substituted for the zone's domain name
+        type:
+          type: string
+          enum: ['A', 'AAAA', 'CAA', 'CNAME', 'MX', 'SPF', 'SRV', 'TXT', 'NS', 'SOA', 'AXFR']
+          example: NS
+          description: "The following record types are only available to certain users: NS & AXFR"
+        content:
+          type: string
+          example: ns1.[domain]
+          description: Use '[domain]' to substitute the zone's domain name
+        created_at:
+          type: string
+          format: date
+          example: '2018-09-25'
+          readOnly: true
+        ttl:
+          type: integer
+          example: 86400
+        priority:
+          type: integer
+          minimum: 0
+          maximum: 65535
+      description: A template record, used for automatically creating DNS records when creating a new Zone based on a Template
+
+    Settings:
+      properties:
+        email:
+          type: string
+          example: "test@email.com"
+        nameservers:
+          type: array
+          items:
+            properties:
+              name:
+                type: string
+                example: "test.ukfast.co.uk"
+              ip:
+                type: string
+                example: "203.0.113.1"
+          maxItems: 2
+        custom_base_ns_allowed:
+          type: boolean
+          example: false
+        custom_axfr:
+          properties:
+            allowed:
+              type: boolean
+              example: false
+            name:
+              type: array
+              items:
+                type: string
+                example: example.com
+              example: []
+            ip:
+              type: array
+              items:
+                type: string
+                example: 203.0.113.1
+              example: []
+          description: Collection of custom AXFR settings.
+            The number of hostnames is linked to the number of IP addresses
+        delegation_allowed:
+          type: boolean
+          example: false
+        product:
+          type: string
+          enum: ['Free', 'Branded', 'Unbranded']
+          example: "Unbranded"
+
+  securitySchemes:
+    api_key:
+      type: apiKey
+      description: API key authentication
+      in: header
+      name: Authorization

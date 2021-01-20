@@ -1,0 +1,14 @@
+[MESSAGE CONTROL]
+disable=C0103, import-error
+
+[SIMILARITIES]
+min-similarity-lines=4
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=yes
+
+[MASTER]
+ignore-patterns=['*/docs/conf.py']
+
+[MISCELLANEOUS]
+notes=FIXME,XXX
