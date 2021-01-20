@@ -35,6 +35,4 @@ jobs:
           echo v0.0.0 > VERSION
           pip install wheel
           python setup.py bdist_wheel
-          ls -lash
-          ls -lash /
-          ls -lash ~
+          pwd
