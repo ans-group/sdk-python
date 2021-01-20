@@ -33,5 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo v0.0.0 > VERSION
-          pip install setuptools
+          pip install wheel
           python setup.py bdist_wheel
