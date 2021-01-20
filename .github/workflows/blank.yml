@@ -41,9 +41,20 @@ jobs:
           pip install wheel
           python setup.py bdist_wheel
 
-      - name: Run Tests
+      - name: Run Linter
         run: |
           pip install pytest pytest-pylint
           rm setup.cfg
           pip install -e .
           pytest --pylint -m pylint ./UKFastAPI
+
+      - name: Run coverage
+        run: |
+          pip install pytest-cov
+          rm setup.cfg && mv setup_ci.cfg setup.cfg
+          pytest -vs
+
+      - name: Build Docs
+        run: |
+          pip install mkdocs mkdocs-mermaid2-plugin
+          mkdocs build
