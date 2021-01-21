@@ -14,11 +14,6 @@ from UKFastAPI.SafeDNS import config
 class TestSafeDNS():
     """ Test class for the SafeDNS module. """
 
-    def test_safedns_auth_blank(self):
-        """ Tests SafeDNS when given no authentication token. """
-        with pytest.raises(UKFastAPIException):
-            SafeDns()
-
     def test_safedns_auth_invalid(self):
         """ Tests SafeDNS when given and invalid authentication token. """
         with pytest.raises(UKFastAPIException):

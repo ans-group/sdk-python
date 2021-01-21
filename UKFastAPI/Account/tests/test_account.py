@@ -12,12 +12,6 @@ class TestAccount():
     """ Test class for the Account module. """
     # pylint:disable = no-self-use, redefined-outer-name
 
-    def test_account_auth_blank(self, account):
-        # pylint:disable = unused-argument
-        """ Tests Account module when given no authentication token. """
-        with pytest.raises(UKFastAPIException):
-            Account()
-
     def test_account_auth_invalid(self, account):
         # pylint:disable = unused-argument
         """ Tests Account module when given and invalid authentication token. """

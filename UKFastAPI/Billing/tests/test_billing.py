@@ -16,12 +16,6 @@ class TestBilling():
     """ Test class for the Billing module. """
     # pylint:disable = no-self-use, redefined-outer-name
 
-    def test_billing_auth_blank(self, billing):
-        # pylint:disable = unused-argument
-        """ Tests Billing module when given no authentication token. """
-        with pytest.raises(UKFastAPIException):
-            Billing()
-
     def test_billing_auth_invalid(self, billing):
         # pylint:disable = unused-argument
         """ Tests Billing module when given and invalid authentication token. """

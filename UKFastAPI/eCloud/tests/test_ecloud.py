@@ -14,11 +14,6 @@ class TestEcloud():
     """ Test class for the eCloud module. """
     # pylint:disable=no-self-use,redefined-outer-name,unused-argument
 
-    def test_ecloud_auth_blank(self, ecloud):
-        """ Tests eCloud module when given no authentication token. """
-        with pytest.raises(UKFastAPIException):
-            eCloud()
-
     def test_ecloud_auth_invalid(self, ecloud):
         """ Tests eCloud module when given and invalid authentication token. """
         with pytest.raises(UKFastAPIException):
