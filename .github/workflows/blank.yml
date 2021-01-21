@@ -44,7 +44,6 @@ jobs:
       - name: Run Linter
         run: |
           pip install pytest pytest-pylint
-          rm setup.cfg
           pip install -e .
           pytest --pylint -m pylint ./UKFastAPI
 
@@ -53,7 +52,6 @@ jobs:
           UKF_API_KEY: ${{ secrets.UKF_API_KEY }}
         run: |
           pip install pytest pytest-cov
-          rm setup.cfg && mv setup_ci.cfg setup.cfg
           pytest -vs
 
       - name: Build Docs
