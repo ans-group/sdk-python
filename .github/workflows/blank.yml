@@ -52,6 +52,7 @@ jobs:
           UKF_API_KEY: ${{ secrets.UKF_API_KEY }}
         run: |
           pip install pytest pytest-cov
+          mv setup_ci.cfg setup.cfg
           pytest -vs
 
       - name: Build Docs
