@@ -1,0 +1,123 @@
+interactions:
+- request:
+    body: '{"name": "okbrqvvbeq.com", "default": false}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates
+  response:
+    body:
+      string: '{"data":{"id":12002},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/templates\/12002"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '98'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:35 GMT
+      Request-ID:
+      - 4f5ec7ba-9ec9-41aa-97a3-37914cdda7e3
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":12002,"name":"okbrqvvbeq.com","default":false,"created_at":"2021-01-25"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '97'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:35 GMT
+      Request-ID:
+      - 5ade0dda-8838-4cd6-8e21-6bbdb5762460
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "okbrqvvbeq.com", "default": false}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates
+  response:
+    body:
+      string: '{"errors":[{"title":"Validation Error","detail":"A Template with that
+        name already exists","status":422,"source":"name"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '122'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:35 GMT
+      Request-ID:
+      - 4de5456a-00e2-4200-838d-c95202391822
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 422
+      message: Unprocessable Entity
+version: 1

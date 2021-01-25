@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"message":"Invalid authentication credentials"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Content-Length:
+      - '48'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Vary:
+      - Origin
+    status:
+      code: 401
+      message: Unauthorized
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1
+  response:
+    body:
+      string: '{"message":"Invalid authentication credentials"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Content-Length:
+      - '48'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Vary:
+      - Origin
+    status:
+      code: 401
+      message: Unauthorized
+version: 1

@@ -1,0 +1,82 @@
+interactions:
+- request:
+    body: '{"contact_id": 1, "notes": "this is a test note"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '49'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/notes
+  response:
+    body:
+      string: '{"data":{"id":4667025},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/zones\/okbrqvvbeq.com\/notes\/4667025"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '121'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:36 GMT
+      Request-ID:
+      - 9fc72d23-bd7b-4f32-89b5-bd47effb284b
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/notes/4667025?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":4667025,"contact_id":1,"notes":"this is a test note","created_at":"2021-01-25T16:43:36+00:00","ip":"78.137.119.4"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '139'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:36 GMT
+      Request-ID:
+      - ee880ce3-f56f-462c-9afb-224491916301
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

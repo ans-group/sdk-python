@@ -1,0 +1,122 @@
+interactions:
+- request:
+    body: '{"name": "mytestzone.com", "description": "description"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/zones
+  response:
+    body:
+      string: '{"data":{"name":"mytestzone.com"},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/zones\/mytestzone.com"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '116'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:14 GMT
+      Request-ID:
+      - 342d346a-6c73-4cb7-b772-b77f07572892
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/mytestzone.com?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"name":"mytestzone.com","description":"description"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '72'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:14 GMT
+      Request-ID:
+      - 1681df22-4366-4e6e-b668-30c8be0f162f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/mytestzone.com?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"name":"mytestzone.com","description":"description"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '72'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:14 GMT
+      Request-ID:
+      - d0ade747-d645-49a3-8623-a053c3dd194f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,164 @@
+interactions:
+- request:
+    body: '{"name": "test.okbrqvvbeq.com", "type": "MX", "content": "mx1.okbrqvvbeq.com",
+      "ttl": 86400, "priority": 30}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records
+  response:
+    body:
+      string: '{"data":{"id":4871158},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/zones\/okbrqvvbeq.com\/records\/4871158"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '123'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:02 GMT
+      Request-ID:
+      - 0d8dde59-1833-4b71-9803-3446033c4ff5
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records/4871158?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":4871158,"zone":"okbrqvvbeq.com","name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","updated_at":"2021-01-25T16:44:02+00:00","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '196'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:02 GMT
+      Request-ID:
+      - 6b81e81c-8d2a-48f4-96e5-87ce10eb5330
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "test.okbrqvvbeq.com", "type": "MX", "content": "mx1.okbrqvvbeq.com",
+      "ttl": 86400, "priority": 30}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records
+  response:
+    body:
+      string: '{"data":{"id":27569},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/templates\/12002\/records\/27569"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '114'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:06 GMT
+      Request-ID:
+      - 42e64836-b1f8-4844-8ea0-44a75cdf7d67
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records/27569?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":27569,"name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","created_at":"2021-01-25","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '155'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:06 GMT
+      Request-ID:
+      - 659ae6e0-826c-49ae-915a-f9e63f0fb4ff
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

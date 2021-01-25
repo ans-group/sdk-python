@@ -1,0 +1,123 @@
+interactions:
+- request:
+    body: '{"name": "zvvvmqgjkbjrsto.com", "default": false}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '49'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates
+  response:
+    body:
+      string: '{"data":{"id":12013},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/templates\/12013"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '98'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:49 GMT
+      Request-ID:
+      - 782d2544-ab85-42de-a099-32e553ebfe75
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12013?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":12013,"name":"zvvvmqgjkbjrsto.com","default":false,"created_at":"2021-01-25"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:50 GMT
+      Request-ID:
+      - 564de2b2-55bf-4472-a6f4-2ca0f86089eb
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"id": 12013, "name": "qwarnvwiqicfwb.com", "default": true, "created_at":
+      "2021-01-25"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '88'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: PATCH
+    uri: https://api.ukfast.io/safedns/v1/templates/12013
+  response:
+    body:
+      string: '{"data":{"id":12013},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/templates\/12013"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '98'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:50 GMT
+      Request-ID:
+      - 3fc18cba-823b-4a53-a0fc-219cd4e31599
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

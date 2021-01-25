@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/0?per_page=5&page=1
+  response:
+    body:
+      string: '{"errors":[{"title":"Template Not Found","detail":"Template ID: ''0''
+        not found","status":404,"source":"template_id"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '117'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:46 GMT
+      Request-ID:
+      - a0d477f2-f013-457b-ad98-4d118ee932ba
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 404
+      message: Not Found
+version: 1

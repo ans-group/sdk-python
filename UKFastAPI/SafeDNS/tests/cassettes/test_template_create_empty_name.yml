@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: '{"name": "", "default": false}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '30'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates
+  response:
+    body:
+      string: '{"errors":[{"title":"Validation Error","detail":"The name field is
+        required","status":422,"source":"name"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:38 GMT
+      Request-ID:
+      - 8d40c613-dd98-4944-bb99-03551d825e54
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 422
+      message: Unprocessable Entity
+version: 1

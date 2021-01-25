@@ -1,0 +1,4922 @@
+interactions:
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - b55c1729-9ca0-40a2-bf81-63f4a5037f92
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - cc3f5567-5b97-4a34-bf10-f4f03a2434f7
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - ca93e0b7-1cb4-4c08-a8fa-588cb3a90e52
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - 6c17c124-0dd5-40d8-aaef-f50ac094e65e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - 6dce862e-f131-4efe-a21b-71a851f68684
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - 1701b20c-2ba3-4d8d-b246-e2e7e3093bee
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:24 GMT
+      Request-ID:
+      - 0d2b9395-0be0-4541-a601-d2402ac69e54
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:25 GMT
+      Request-ID:
+      - daa9c6c2-044e-48d9-90b9-ec63b9dbe93c
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:33 GMT
+      Request-ID:
+      - 7c2093df-51b0-44f1-8e1b-6e2e8b21c128
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:33 GMT
+      Request-ID:
+      - 35032b88-8615-41c4-a45b-cf208e084a07
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:33 GMT
+      Request-ID:
+      - adf1dfe5-5053-4121-8dee-bdda9c28afc8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:34 GMT
+      Request-ID:
+      - 0071a796-cf4d-4c2b-a279-2b86e0c582da
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:34 GMT
+      Request-ID:
+      - 6c52f670-9413-49d8-9ca1-bf65945e6718
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:34 GMT
+      Request-ID:
+      - b4d184ef-4727-4e79-bc5b-6831bba1e07d
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:35 GMT
+      Request-ID:
+      - d5e9b2d8-5719-4fe3-88df-485d0faeda18
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:35 GMT
+      Request-ID:
+      - b43c76b8-d29c-499a-9cbb-694c53d76975
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:36 GMT
+      Request-ID:
+      - 5eb70cd9-200c-4170-acc1-558ad3210ffb
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:36 GMT
+      Request-ID:
+      - 5da097ec-527b-4693-92e0-927701baa0c4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:37 GMT
+      Request-ID:
+      - 2d4540f3-e88a-4717-88b4-669c58dd55a1
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:37 GMT
+      Request-ID:
+      - 05f6353a-32ac-433d-a6a2-5a36be86c57e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:38 GMT
+      Request-ID:
+      - d274ce2a-e85f-40e3-8a1d-4142f44263d3
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:39 GMT
+      Request-ID:
+      - 685fcd6d-f1a7-48fd-8567-41a5186b0451
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:39 GMT
+      Request-ID:
+      - 8c962c07-2321-4080-97df-94f99ee41dd8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:40 GMT
+      Request-ID:
+      - 53514077-ed8b-4a70-824a-d4bed184619e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:41 GMT
+      Request-ID:
+      - afd91892-5ec4-4e02-9481-3dc7b5a301dc
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:41 GMT
+      Request-ID:
+      - 123909ab-7606-446a-8194-f018a509917f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:42 GMT
+      Request-ID:
+      - 7ba9fe8f-1f01-438d-97bd-3a4c1e41083e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:43 GMT
+      Request-ID:
+      - 3f4cc0d2-74d3-4f53-b58e-e6cff1dfba96
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:43 GMT
+      Request-ID:
+      - f2e06ccb-0d2a-43ab-b17f-665f2de0bc8e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:44 GMT
+      Request-ID:
+      - a4fa8e1c-7a10-453d-a1a3-d4ab110a1888
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:44 GMT
+      Request-ID:
+      - 5aba8c5d-69b2-45e2-83c9-b89b89fc3e74
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:45 GMT
+      Request-ID:
+      - 7f908d2f-6125-4044-8b76-8611547d1cda
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:46 GMT
+      Request-ID:
+      - acb87550-1b9e-4265-b16e-40eea7041ae0
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:47 GMT
+      Request-ID:
+      - a5ebb60f-8e7d-4ee5-b798-abe5d1a85edb
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:48 GMT
+      Request-ID:
+      - 2e8db154-f2fb-4939-a432-14198250ecd1
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:49 GMT
+      Request-ID:
+      - 81ed918f-c9ad-42d3-a7b1-6c162b35379e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:49 GMT
+      Request-ID:
+      - 57bad621-5095-4b63-af20-8efc784c3f7b
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:50 GMT
+      Request-ID:
+      - e88a9165-8ef7-48bd-bd24-2ca1def47898
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:51 GMT
+      Request-ID:
+      - 55318db4-6033-45cb-8d3b-201f11c12af8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:52 GMT
+      Request-ID:
+      - de5ae475-9ad1-4e46-97c5-be6e789aff45
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:53 GMT
+      Request-ID:
+      - 798d0186-b1b8-4421-ba81-9b248981c33a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:54 GMT
+      Request-ID:
+      - 5eeee589-eea6-4fee-8657-7a0c3d75eb98
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:54 GMT
+      Request-ID:
+      - 4be3f6a3-9b70-41cc-806d-40e21f4fbc64
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:55 GMT
+      Request-ID:
+      - 1e32438c-ee01-43d4-b061-e2763a20845a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:57 GMT
+      Request-ID:
+      - 120fb8a4-4fdd-4da4-8c56-503734975409
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:58 GMT
+      Request-ID:
+      - b36e4e36-6f31-421c-a90e-d03a54bebf11
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:58 GMT
+      Request-ID:
+      - e68e3b70-6b6d-46b6-a9b8-0a41c9e1728b
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:00 GMT
+      Request-ID:
+      - 8d9f89be-2c16-4c05-b737-fc4cae1e0bff
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:00 GMT
+      Request-ID:
+      - 012a900c-869d-4269-a2b8-f2e1178dc68e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:01 GMT
+      Request-ID:
+      - 15572cac-4949-4f1d-9538-e3373295e34f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:03 GMT
+      Request-ID:
+      - e6c43a47-eb7e-4619-b679-4ed3429509df
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:04 GMT
+      Request-ID:
+      - 3944ed1e-153a-4b09-8833-2a1ec256e2e4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:05 GMT
+      Request-ID:
+      - 6bc2310a-2f92-4710-a680-468ebc0b6829
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:06 GMT
+      Request-ID:
+      - 18337750-b893-4306-a96f-179915484d55
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:07 GMT
+      Request-ID:
+      - 9b60d6ef-9bfd-4d9e-ba2f-4334aa27bf4a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:08 GMT
+      Request-ID:
+      - 60ecdf6a-c9fe-404a-ba6a-5b0f3b6e050a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:10 GMT
+      Request-ID:
+      - cd3c8e02-efaf-465a-a079-2a0f512e9971
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:11 GMT
+      Request-ID:
+      - c5c60773-9183-4a58-bd6d-bfc375027d6d
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:12 GMT
+      Request-ID:
+      - 8be31d78-617b-4c4f-b0a3-55eb2c7e86af
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:13 GMT
+      Request-ID:
+      - 0918cdec-2189-44a0-bfeb-c516e327ca56
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:14 GMT
+      Request-ID:
+      - 7067448a-23b9-4911-948d-6236ac35aafc
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:15 GMT
+      Request-ID:
+      - ebab122a-2bcd-4ee1-840e-e2187a465064
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:17 GMT
+      Request-ID:
+      - 5933199d-b3e6-4171-8de7-23221b32da20
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:18 GMT
+      Request-ID:
+      - c31468e4-12e6-4e24-ba73-6d7cf1c44004
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:19 GMT
+      Request-ID:
+      - 185cca18-a192-48be-ad96-7d2975d767f4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:20 GMT
+      Request-ID:
+      - 604d9a43-eac3-4526-9f06-574e2162df63
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:21 GMT
+      Request-ID:
+      - 6fad4605-a007-4e00-ae17-d747f3689b26
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:22 GMT
+      Request-ID:
+      - aa72f9e2-42d0-4f0e-92ea-fedd1db73ea0
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:24 GMT
+      Request-ID:
+      - abcf4a09-7f72-42a1-83c1-dbdc35900880
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:25 GMT
+      Request-ID:
+      - e457c489-2b6c-4e50-87e2-0d6a63ce1b1a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:26 GMT
+      Request-ID:
+      - 40ebe25e-0d37-46d2-907f-587e6d598b14
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:28 GMT
+      Request-ID:
+      - 35a20598-5dea-4ff8-8575-64daf13c1e4f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:28 GMT
+      Request-ID:
+      - 83317260-5895-4a2b-b131-cefc18c8aac2
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:30 GMT
+      Request-ID:
+      - 33dc57c0-7890-4653-a627-b7e86a56fbd2
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:31 GMT
+      Request-ID:
+      - c065a738-b564-46c1-9915-7a087c83f661
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:32 GMT
+      Request-ID:
+      - 1be27721-91a9-460d-bae7-8c24a3c72d42
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:33 GMT
+      Request-ID:
+      - 550e2302-98d5-4b9b-b385-33e319356bf1
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:34 GMT
+      Request-ID:
+      - 337e4674-49b6-45ad-942d-55155d1a481f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:35 GMT
+      Request-ID:
+      - 1b037576-2f73-456d-bccc-a1251f6a040c
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:37 GMT
+      Request-ID:
+      - 3aea4f6f-79c6-46d8-af32-39520c94add9
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:38 GMT
+      Request-ID:
+      - ea918cbe-1482-4d54-ac8c-feafe8a634c1
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:39 GMT
+      Request-ID:
+      - a5d79f52-8521-471c-852b-996f6ed5d7bc
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:40 GMT
+      Request-ID:
+      - 56e2afd0-c8e2-4b52-96c0-8a01f85c4f88
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:41 GMT
+      Request-ID:
+      - 42d425ef-5e4a-413c-8cbf-d251130e34e2
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:43 GMT
+      Request-ID:
+      - 87758258-f4d0-4817-87cd-3e5fd0ed4530
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:44 GMT
+      Request-ID:
+      - f852ea2a-de03-45c8-8104-f3764b263528
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:45 GMT
+      Request-ID:
+      - 4404e29c-42d0-4975-b507-7a74407e99c2
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:46 GMT
+      Request-ID:
+      - 3dbfdb9e-0fc7-4c72-b392-4266b624722f
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:48 GMT
+      Request-ID:
+      - 79deaaab-f6bd-4318-b258-8d783beb4e4e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:49 GMT
+      Request-ID:
+      - d413e450-d8f1-41fc-a1fd-3c3953bb7f5c
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:50 GMT
+      Request-ID:
+      - 61362372-c419-4c74-aeef-3c037ad1ac37
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:52 GMT
+      Request-ID:
+      - 71c6e832-3daf-4058-9d2c-f29994c27cd2
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:53 GMT
+      Request-ID:
+      - fe3ade28-65f7-4804-aaed-adf5e1ae6ef8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:54 GMT
+      Request-ID:
+      - c673ad3a-1121-4a19-bf1d-8a1c7fbe5f7e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:56 GMT
+      Request-ID:
+      - 4654379b-98aa-4b33-b69f-04861506d466
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:44:57 GMT
+      Request-ID:
+      - 2875a2fe-fab7-437f-9ff4-1c862ac0e3fb
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:01 GMT
+      Request-ID:
+      - 4b79caf6-e6aa-4023-9294-da72082298ea
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:02 GMT
+      Request-ID:
+      - 714fedb6-6990-40d4-83ba-ea6c95f8031b
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:04 GMT
+      Request-ID:
+      - 0d3fad06-cf7f-4632-9948-304f627e01f4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:05 GMT
+      Request-ID:
+      - edf18993-d60a-4b2b-94e6-e8d15a0b86b0
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:07 GMT
+      Request-ID:
+      - bbb75730-7cba-41a3-9bbd-a5c224f107e7
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:09 GMT
+      Request-ID:
+      - 965c5839-4a95-4aea-88e0-44e273b8b46a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:10 GMT
+      Request-ID:
+      - 5f53fa62-118e-4494-adfe-48644e77efdb
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:12 GMT
+      Request-ID:
+      - c3cf591b-050b-47ac-87f9-70ab4e211fa6
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:13 GMT
+      Request-ID:
+      - 9fdbd537-43e2-49dd-9abd-53b98f6f6cc4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:15 GMT
+      Request-ID:
+      - cefbcb3f-fbf0-4a18-a101-3f5d144cd9a5
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:17 GMT
+      Request-ID:
+      - 18a783b7-fe66-401a-8ddb-392fdb2ac5d4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:18 GMT
+      Request-ID:
+      - df29586a-b235-4a0e-89eb-abf881d2f4b5
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:20 GMT
+      Request-ID:
+      - 3c556c86-9454-4d34-9560-4071febcdede
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:21 GMT
+      Request-ID:
+      - df368cd0-b91d-4119-b071-8e244dc1cf7a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:23 GMT
+      Request-ID:
+      - 7f892b64-5b94-4ae0-9892-2ad7c648edd3
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:24 GMT
+      Request-ID:
+      - bfd20cfd-6ec6-475d-84c6-f3082164cc32
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:26 GMT
+      Request-ID:
+      - d88958a9-f7b9-4a72-a99c-589a7bffc0a8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:27 GMT
+      Request-ID:
+      - 62ee50c8-28f1-4e25-83b7-6fa8fbcc1e56
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:29 GMT
+      Request-ID:
+      - a4195636-1d68-4024-99ba-19ec0daa6453
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:31 GMT
+      Request-ID:
+      - e4410bcd-ce8c-4218-92c9-a3f0fd02ca32
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:33 GMT
+      Request-ID:
+      - b28b045b-5a52-4133-9ed9-8938e29b1596
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:35 GMT
+      Request-ID:
+      - 122f3272-2bef-44e8-adff-5d8580b9ee2d
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:36 GMT
+      Request-ID:
+      - ef2427c0-36b4-48ed-ab4a-d8c74d4ba81a
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:38 GMT
+      Request-ID:
+      - 985f4e2b-6ac4-4572-9c85-fa20f037ce8c
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:40 GMT
+      Request-ID:
+      - 9fcf33d3-fce9-4368-a9c2-3a7e0d415ff0
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:42 GMT
+      Request-ID:
+      - b0d10e0f-6112-4727-878b-c9cc0d154939
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/settings?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"email":"support@ukfast.co.uk","nameservers":[{"name":"ns0.ukfast.net","ip":"185.226.220.128"},{"name":"ns1.ukfast.net","ip":"185.226.221.128"}],"custom_base_ns_allowed":false,"custom_axfr":{"allowed":false,"name":[],"ip":[]},"delegation_allowed":false,"product":"Free"},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '290'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:45:43 GMT
+      Request-ID:
+      - 0ac960ae-ba3d-491e-a942-b622f0a4f2e1
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

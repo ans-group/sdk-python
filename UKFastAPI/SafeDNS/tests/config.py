@@ -9,3 +9,5 @@ TEST_RECORD_TTL = 86400
 
 TEST_NOTE_USER = 1
 TEST_NOTE_CONTENTS = 'this is a test note'
+
+TEST_ZONE_NAME = 'mytestzone.com'

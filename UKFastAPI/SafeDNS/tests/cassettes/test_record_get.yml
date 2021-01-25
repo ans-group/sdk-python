@@ -1,0 +1,244 @@
+interactions:
+- request:
+    body: '{"name": "test.okbrqvvbeq.com", "type": "MX", "content": "mx1.okbrqvvbeq.com",
+      "ttl": 86400, "priority": 30}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records
+  response:
+    body:
+      string: '{"data":{"id":4871147},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/zones\/okbrqvvbeq.com\/records\/4871147"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '123'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:46 GMT
+      Request-ID:
+      - 4a269e4c-a0bb-44ae-bded-649cfec7d7b8
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records/4871147?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":4871147,"zone":"okbrqvvbeq.com","name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","updated_at":"2021-01-25T16:43:46+00:00","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '196'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:46 GMT
+      Request-ID:
+      - 18a60679-4018-4420-b54e-b203ddeb4fad
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records/4871147?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":4871147,"zone":"okbrqvvbeq.com","name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","updated_at":"2021-01-25T16:43:46+00:00","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '196'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:46 GMT
+      Request-ID:
+      - df6c73e9-56c8-4943-942f-b215c3b9af5e
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"name": "test.okbrqvvbeq.com", "type": "MX", "content": "mx1.okbrqvvbeq.com",
+      "ttl": 86400, "priority": 30}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: POST
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records
+  response:
+    body:
+      string: '{"data":{"id":27558},"meta":{"location":"https:\/\/api.ukfast.io\/safedns\/v1\/templates\/12002\/records\/27558"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '114'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:48 GMT
+      Request-ID:
+      - 0efd57eb-dfdc-4593-bced-5454bae5b981
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 201
+      message: Created
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records/27558?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":27558,"name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","created_at":"2021-01-25","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '155'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:48 GMT
+      Request-ID:
+      - 7853a6ee-37be-4529-a26c-91aeb8a730f4
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records/27558?per_page=5&page=1
+  response:
+    body:
+      string: '{"data":{"id":27558,"name":"test.okbrqvvbeq.com","type":"MX","content":"mx1.okbrqvvbeq.com","created_at":"2021-01-25","ttl":86400,"priority":30},"meta":{}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '155'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:48 GMT
+      Request-ID:
+      - 86b07562-1881-4b69-b72a-e6c524f46e78
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 200
+      message: OK
+version: 1

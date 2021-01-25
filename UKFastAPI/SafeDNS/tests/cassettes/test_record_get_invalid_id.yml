@@ -1,0 +1,166 @@
+interactions:
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records/0?per_page=5&page=1
+  response:
+    body:
+      string: '{"errors":[{"title":"Record Not Found","detail":"Record ID: ''0'' not
+        found","status":404,"source":"record_id"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '111'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:51 GMT
+      Request-ID:
+      - 08f80244-fd06-4ac4-9716-ff322d4b3f12
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/zones/okbrqvvbeq.com/records/abc?per_page=5&page=1
+  response:
+    body:
+      string: '{"errors":[{"title":"Validation Error","detail":"The record id must
+        be an integer","status":422,"source":"record_id"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '119'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:51 GMT
+      Request-ID:
+      - b1eda1f3-21d8-41b3-acbf-193593888ca5
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 422
+      message: Unprocessable Entity
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records/0?per_page=5&page=1
+  response:
+    body:
+      string: '{"errors":[{"title":"Template Record Not Found","detail":"Template
+        Record ID: ''0'' not found","status":404,"source":"template_record_id"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '138'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:53 GMT
+      Request-ID:
+      - 65a09a6e-deee-4c34-a73d-43d817fd0478
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: '{}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.0
+    method: GET
+    uri: https://api.ukfast.io/safedns/v1/templates/12002/records/abc?per_page=5&page=1
+  response:
+    body:
+      string: '{"errors":[{"title":"Validation Error","detail":"The record id must
+        be an integer","status":422,"source":"record_id"}]}'
+    headers:
+      Access-Control-Allow-Origin:
+      - https://developers.ukfast.io
+      Cache-Control:
+      - no-cache, private
+      Content-Length:
+      - '119'
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 25 Jan 2021 16:43:53 GMT
+      Request-ID:
+      - 842f4d7f-9580-4e70-be0e-aeac090d56df
+      Vary:
+      - Origin
+      X-Powered-By:
+      - PHP/8.0.0
+    status:
+      code: 422
+      message: Unprocessable Entity
+version: 1

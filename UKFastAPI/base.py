@@ -12,6 +12,8 @@ from UKFastAPI import exceptions
 
 # pylint:disable=too-few-public-methods, protected-access
 
+logging.basicConfig(level=logging.DEBUG)
+
 
 class Actions(enum.Enum):
     """ Enum used to define request types within the IManagedObject Action method. """
@@ -221,8 +223,6 @@ class BaseApi():
     def __init__(self, auth):
         if not auth:
             auth = os.getenv(config.UKF_API_KEY)
-        if not auth:
-            raise exceptions.UKFastAPIException('No auth token provided.')
         self.auth = auth
 
     def auth_test(self):
@@ -359,7 +359,7 @@ class BaseApi():
 
     def _post(self, url, **kwargs):
         """ Used to make post (create) requests to the given url. """
-        return [(self._request(requests.post, url, **kwargs)).data]
+        return [self._request(requests.post, url, **kwargs).data]
 
     def _patch(self, url, **kwargs):
         """ Used to make patch (updated) requests to the given url. """
