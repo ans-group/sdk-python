@@ -1,13 +1,12 @@
 """ Utils to assist SafeDNS testing. """
 import os
-import string
 import random
-import pytest
-import time
+import string
 
+import pytest
+from UKFastAPI.config import UKF_API_KEY
 from UKFastAPI.SafeDNS.safedns import SafeDns, config
 from UKFastAPI.SafeDNS.tests import config as testconfig
-from UKFastAPI.config import UKF_API_KEY
 from UKFastAPI.utils import generate_vcr_decorator
 
 # pylint:disable=missing-function-docstring

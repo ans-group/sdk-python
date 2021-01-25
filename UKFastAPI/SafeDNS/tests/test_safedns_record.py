@@ -2,7 +2,6 @@
 import pytest
 from UKFastAPI import exceptions
 from UKFastAPI.config import DEFAULT_PER_PAGE
-from UKFastAPI.SafeDNS.template import Template
 from UKFastAPI.SafeDNS.tests import config
 # pylint:disable=unused-import, redefined-outer-name, no-self-use
 from UKFastAPI.SafeDNS.tests.test_utils import (clear_safedns,
@@ -77,8 +76,8 @@ class TestRecords():
         assert len(parent.records.list(all=True)) == list_limit
 
     def test_pagination(self, parent):
-        pytest.skip('Can\'t reliably test pagination with VCR in place.')
         """ Tests the pagination functionality. """
+        pytest.skip('Can\'t reliably test pagination with VCR in place.')
         list_limit = 10
 
         current_len = len(parent.records.list(all=True))

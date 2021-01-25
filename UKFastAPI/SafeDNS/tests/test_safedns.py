@@ -1,12 +1,13 @@
 """ Tests for the SafeDNS implementation. """
 import pytest
-
 from UKFastAPI.exceptions import UKFastAPIException
 from UKFastAPI.SafeDNS.safedns import SafeDns
-from UKFastAPI.utils import decorate_funcs
 # pylint:disable=unused-import, redefined-outer-name, no-self-use
-from UKFastAPI.SafeDNS.tests.test_utils import (
-    get_zone_names, safedns, clear_safedns, get_safedns, generate_zone_name, create_zone, vcr_decorator)
+from UKFastAPI.SafeDNS.tests.test_utils import (clear_safedns, create_zone,
+                                                generate_zone_name,
+                                                get_safedns, get_zone_names,
+                                                safedns, vcr_decorator)
+from UKFastAPI.utils import decorate_funcs
 
 
 @pytest.mark.usefixtures('clear_safedns')
