@@ -2,3 +2,4 @@ certifi
 chardet
 requests
 urllib3
+vcrpy
