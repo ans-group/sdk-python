@@ -4,4 +4,4 @@ This project serves as a Python wrapper around the various [UKFast API modules](
 
 ## API Modules
 
-SafeDNS
+[SafeDNS](safedns.md)
