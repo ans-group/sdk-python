@@ -1,1 +1,0 @@
-docker run -it $(docker build -q -f ../.docker/documentation.dockerfile ..)
