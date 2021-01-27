@@ -16,3 +16,5 @@ docs/_apidoc
 docs/doctrees
 docs/html
 site
+scripts
+.docker

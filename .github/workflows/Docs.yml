@@ -49,7 +49,7 @@ jobs:
           pip install mkdocs mkdocs-mermaid2-plugin
           mkdocs build
 
-      - name: Deploy 🚀
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
