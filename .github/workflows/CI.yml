@@ -31,7 +31,7 @@ jobs:
       - name: Run Linter
         run: |
           pip install -r requirements.txt
-          pip install pytest pytest-pylint
+          pip install pytest pytest-pylint vcrpy
           pip install -e .
           pytest --pylint -m pylint ./UKFastAPI
 
