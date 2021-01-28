@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Zones - UKFast sdk-python</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+    // Current page data
+    var mkdocs_page_name = "Zones";
+    var mkdocs_page_input_path = "safedns/safedns_zones.md";
+    var mkdocs_page_url = null;
+  </script>
+<script defer="" src="../../js/jquery-2.1.1.min.js"></script>
+<script defer="" src="../../js/modernizr-2.8.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</link></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a class="icon icon-home" href="../.."> UKFast sdk-python</a>
+</div>
+<div aria-label="main navigation" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<p class="caption"><span class="caption-text">Home</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../..">Contents</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">API Examples</a>
+<ul class="current">
+<li class="toctree-l2 current"><a class="reference internal current" href="#">SafeDNS</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../safedns/">SafeDns</a>
+</li>
+<li class="toctree-l3 current"><a class="reference internal current" href="./">Zones</a>
+<ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="#heirarchy">Heirarchy</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../safedns_templates/">Templates</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../safedns_records/">Records</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../safedns_notes/">Notes</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../safedns_settings/">Settings</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="top navigation" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">UKFast sdk-python</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content">
+<div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a href="../..">Docs</a> »</li>
+<li>SafeDNS »</li>
+<li>API Examples »</li>
+<li>Home »</li>
+<li>Zones</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div role="main">
+<div class="section">
+<h1 id="safedns-zones">SafeDNS Zones</h1>
+<p><a href="https://developers.ukfast.io/documentation/safedns#/Zone">API Documentation</a></p>
+<h2 id="heirarchy">Heirarchy</h2>
+<div class="mermaid">graph TD
+    SafeDns --&gt; Zone --&gt; Record
+    Zone --&gt; Note
+    style Zone fill:#ffbbad
+</div>
+<p><br/></p>
+<h4 id="listing-zones">Listing Zones</h4>
+<pre><code class="language-python"># Subject to pagination.
+zones = safedns.zones.list()
+
+# Bypass pagination.
+zones = safedns.zones.list(all=True)
+</code></pre>
+<h4 id="getting-a-zone">Getting a Zone</h4>
+<pre><code class="language-python">zone = safedns.zones.get('my-zone')
+</code></pre>
+<h4 id="creating-a-zone">Creating a Zone</h4>
+<pre><code class="language-python">zone = safedns.zones.create(name='my-zone', description='My first zone.')
+</code></pre>
+<h4 id="updating-a-zone">Updating a Zone</h4>
+<pre><code class="language-python">zone.description = 'My new description.'
+zone.save()
+</code></pre>
+<h4 id="deleting-a-zone">Deleting a Zone</h4>
+<pre><code class="language-python">zone.delete()
+</code></pre>
+</div>
+</div>
+<footer>
+<div aria-label="footer navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-right" href="../safedns_templates/" title="Templates">Next <span class="icon icon-circle-arrow-right"></span></a>
+<a class="btn btn-neutral" href="../safedns/" title="SafeDns"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="../safedns/" style="color: #fcfcfc;">« Previous</a></span>
+<span style="margin-left: 15px"><a href="../safedns_templates/" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script>var base_url = '../..';</script>
+<script defer="" src="../../js/theme.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script><script>mermaid.initialize({});</script></body>
+</html>
