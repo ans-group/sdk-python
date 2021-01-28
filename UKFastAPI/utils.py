@@ -1,10 +1,10 @@
 """ VCR related utils functions. """
-import logging
+# import logging
 import vcr
 
-logging.basicConfig()
-vcr_log = logging.getLogger("vcr")
-vcr_log.setLevel(logging.INFO)
+# logging.basicConfig()
+# vcr_log = logging.getLogger("vcr")
+# vcr_log.setLevel(logging.INFO)
 
 
 def decorate_funcs(decorator):
