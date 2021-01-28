@@ -228,10 +228,6 @@ class BaseApi():
     def auth_test(self):
         """ Ensure we can properly authenticate. """
         try:
-            logging.warning('%s with %s',
-                            config.BASE_URL + vars(self).get('_url'),
-                            self.auth)
-
             response = requests.get(
                 config.BASE_URL + vars(self).get('_url'),
                 headers={'Authorization': self.auth}
