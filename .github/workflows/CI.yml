@@ -40,6 +40,6 @@ jobs:
           UKF_API_KEY: ${{ secrets.UKF_API_KEY }}
         run: |
           pip install -r requirements.txt
-          pip install pytest pytest-cov
+          pip install pytest pytest-cov vcrpy
           mv setup_ci.cfg setup.cfg
           pytest -vs
