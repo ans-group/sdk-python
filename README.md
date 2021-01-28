@@ -14,5 +14,12 @@ safedns = SafeDns('TOKEN') # Can instead be automatically retrieved from an envi
 print(safedns.zones.list())
 ```
 
+## Building Package
+```bash
+pip install wheel
+python setup.py bdist_wheel
+pip install dist/UKFastAPI*
+```
+
 ## Currently Supported APIs
 * SafeDNS
