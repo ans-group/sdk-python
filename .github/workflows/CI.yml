@@ -22,16 +22,17 @@ jobs:
         with:
           python-version: '3.9'
 
+      - name: Pip Installs
+        run: |
+          pip install -r requirements_ci.txt
+
       - name: Package Wheel
         run: |
           echo v0.0.0 > VERSION
-          pip install wheel
           python setup.py bdist_wheel
 
       - name: Run Linter
         run: |
-          pip install -r requirements.txt
-          pip install pytest pytest-pylint vcrpy
           pip install -e .
           pytest --pylint -m pylint ./UKFastAPI
 
@@ -39,7 +40,16 @@ jobs:
         env:
           UKF_API_KEY: ${{ secrets.UKF_API_KEY }}
         run: |
-          pip install -r requirements.txt
-          pip install pytest pytest-cov vcrpy
           mv setup_ci.cfg setup.cfg
           pytest -vs
+
+      - name: Build Docs
+        run: |
+          mkdocs build
+
+      - name: Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: docs
+          FOLDER: site

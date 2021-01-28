@@ -1,0 +1,7 @@
+wheel
+pytest
+pytest-cov
+pytest-pylint
+vcrpy
+mkdocs
+mkdocs-mermaid2-plugin
