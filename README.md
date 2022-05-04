@@ -7,7 +7,7 @@ Python interface for the UKFast APIs.
 
 ## Quick Start
 ```python
-from UKFast.SafeDNS import SafeDns
+from UKFastAPI.SafeDNS import SafeDns
 
 safedns = SafeDns('TOKEN') # Can instead be automatically retrieved from an environment variable named UKF_API_KEY.
 
